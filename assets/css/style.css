@@ -1010,6 +1010,12 @@ html, body {
     }
 }
 
+.angeboth4 {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+
 /* Section: Services */
 .section-services .subheading-text {
     margin-bottom: 90px;

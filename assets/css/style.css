@@ -486,6 +486,7 @@ select {
 /* Accordion */
 .accordion.panel-group {
     margin-bottom: 0;
+    
 }
 
 .accordion.panel-group .panel + .panel {
@@ -613,6 +614,79 @@ select {
 .pagination > li.more + li > a {
   margin-left: 0;
 }
+
+.tarifeCard {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columnstarif {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.pricetarif {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.headerprice {
+    background-color: #4d888e;
+}
+/* Add shadows on hover */
+.pricetarif:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.pricetarif .headertarif {
+  background-color: #4d888e;
+  color: white;
+  font-size: 22px;
+  border-radius: 20px;
+
+}
+
+/* List items */
+.pricetarif li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.pricetarif .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.buttontarif {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 94%;
+    margin-left: 3%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 750px) {
+  .columnstarif {
+    width: 100%;
+  }
+}
+
 
 /* LAYOUT
 ================================================== */
@@ -892,6 +966,12 @@ html, body {
 .contact-hero {
     background: url(../img/contact-hero.jpg) no-repeat center / cover;     
 }
+
+/* .tarife-preise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 /* SITEMAIN
 ================================================== */

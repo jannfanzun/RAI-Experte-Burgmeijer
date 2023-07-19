@@ -648,7 +648,7 @@ select {
 .pricetarif .headertarif {
   background-color: #4d888e;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 20px;
 
 }
@@ -956,7 +956,7 @@ html, body {
 }
 
 .portfolio-hero {
-    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/images/referenzenbg.jpg) no-repeat center / cover;     
 }
 
 .blog-hero {
@@ -966,6 +966,12 @@ html, body {
 .contact-hero {
     background: url(../img/contact-hero.jpg) no-repeat center / cover;     
 }
+
+.angebote-hero {
+    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
+}
+
+
 
 /* .tarife-preise {
     display: flex;

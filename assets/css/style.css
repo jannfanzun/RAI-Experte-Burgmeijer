@@ -970,6 +970,53 @@ html, body {
 .angebote-hero {
     background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
 }
+.referenzen-section {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.referenzen-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Zentriert die Bilder horizontal */
+}
+
+.referenzen-div {
+    flex: 0 0 20%; /* Jedes Bild wird auf 20% der verfügbaren Breite festgelegt */
+    margin-left: 3%;
+}
+
+.referenzen-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media Query für Bildschirm kleiner als 768px (anpassen, wenn nötig) */
+/* Media Query für Bildschirm kleiner als 768px (anpassen, wenn nötig) */
+@media screen and (max-width: 768px) {
+    .referenzen-div {
+        flex-basis: 45%; /* Jedes Bild wird auf 45% der verfügbaren Breite festgelegt */
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .referenzen-img {
+        width: 40%;
+        height: auto;
+        display: block; /* Setzt das Bild auf block-level, um margin: 0 auto; zu nutzen */
+        margin: 0 auto; /* Zentriert das Bild horizontal */
+    }
+
+    /* Füge ein zusätzliches Styling hinzu, damit die Bilder in einer Spalte angeordnet werden */
+    .referenzen-row {
+        flex-direction: column;
+        align-items: center; /* Zentriert die Bilder vertikal */
+    }
+}
+
 
 
 

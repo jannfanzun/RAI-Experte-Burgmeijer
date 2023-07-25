@@ -617,6 +617,7 @@ select {
 
 .tarifeCard {
   box-sizing: border-box;
+
 }
 
 /* Create three columns of equal width */
@@ -624,6 +625,7 @@ select {
   float: left;
   width: 33.3%;
   padding: 8px;
+
 }
 
 /* Style the list */
@@ -635,6 +637,8 @@ select {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 20px;
+  border: 1px solid black; /* Hinzufügen der schwarzen Border um die Karte */
+
 }
 .headerprice {
     background-color: #4d888e;
@@ -646,8 +650,8 @@ select {
 
 /* Pricing header */
 .pricetarif .headertarif {
-  background-color: #4d888e;
-  color: white;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   border-radius: 20px;
 
@@ -798,7 +802,9 @@ html, body {
 .slicknav_open .slicknav_arrow,
 .slicknav_nav > li a:hover {
     background-color: transparent;
-    color: #4d888e;
+    color: auto;
+    text-decoration: underline;
+    
 }
 
 .navbar-toggle {
@@ -967,8 +973,12 @@ html, body {
     background: url(../img/contact-hero.jpg) no-repeat center / cover;     
 }
 
+.teilangebote-hero {
+    background: url(../../assets_marco/images/pexels-tima-miroshnichenko-6694543.jpg) no-repeat center / cover;     
+}
+
 .angebote-hero {
-    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/images/pexels-tima-miroshnichenko-6693655.jpg) no-repeat center / cover;     
 }
 .referenzen-section {
     width: 90%;
@@ -1053,7 +1063,7 @@ html, body {
     height: 2px;
     width: 50px;
     margin: 0 auto;
-    background-color: #267df4;
+    background-color: #4d888e;
 }
 
 /* Section: Features */

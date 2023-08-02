@@ -1012,6 +1012,11 @@ html, body {
     margin-top: -8%;
 }
 
+.eintrittsspruch {
+    font-size: larger;
+    margin-bottom: -3%;
+}
+
 @media screen and (max-width: 992px){
     .imgTopLogo {
         margin-top: 15%;

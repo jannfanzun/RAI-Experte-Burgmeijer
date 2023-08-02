@@ -1009,8 +1009,14 @@ html, body {
 }
 
 .imgTopLogo {
-    padding-bottom: 100px;
     margin-top: -8%;
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 992px){
+    .imgTopLogo {
+        margin-top: 15%;
+    }
 }
 
 .subheading-text {

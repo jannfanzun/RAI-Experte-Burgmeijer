@@ -926,16 +926,17 @@ html, body {
     color: #4d888e;
 }
 
+
 .portfolio-hero {
-    background: url(../../assets_marco/images/referenzenbg.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/images/dunkelgrünerhintergrund.jpg) no-repeat center / cover;     
 }
 
 .blog-hero {
-    background: url(../../assets_marco/images/minimalistBG.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/images/blauesmuster.jpg) no-repeat center / cover;     
 }
 
 .contact-hero {
-    background: url(../img/contact-hero.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/images/weissesmuster.jpg) no-repeat center / cover;     
 }
 
 .teilangebote-hero {
@@ -967,6 +968,17 @@ html, body {
 .referenzen-img {
     width: 100%;
     height: auto;
+}
+
+.containerneu {
+    height: 500px;
+    background-color: #aaafb0;
+}
+
+.preisetext1 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
 }
 
 /* Media Query für Bildschirm kleiner als 768px (anpassen, wenn nötig) */
@@ -1009,7 +1021,11 @@ html, body {
 }
 
 .imgTopLogo {
-    margin-top: -8%;
+    margin-top: -11%;
+}
+
+.preisetext{
+    text-align: center;
 }
 
 .eintrittsspruch {
@@ -1134,9 +1150,7 @@ html, body {
 }
 
 .angeboth4 {
-    display: flex;
-    align-items: center;   
-    justify-content: center;
+    margin-bottom: 5%;
 }
 
 /* Section: Services */

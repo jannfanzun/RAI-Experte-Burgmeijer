@@ -913,7 +913,7 @@ html, body {
 }
 
 .subpage-hero.overlay:before {
-    background-color: rgba(38,39,45,0.5);
+    background-color: rgba(78, 79, 82, 0.5);
 }
 
 .subpage-hero .hero-content,
@@ -928,7 +928,7 @@ html, body {
 
 
 .portfolio-hero {
-    background: url(../../assets_marco/images/dunkelgrünerhintergrund.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/images/minimaBG-modified.png) no-repeat center / cover;     
 }
 
 .blog-hero {
@@ -936,7 +936,7 @@ html, body {
 }
 
 .contact-hero {
-    background: url(../../assets_marco/images/weissesmuster.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/images/miniBG.png) no-repeat center / cover;     
 }
 
 .teilangebote-hero {
@@ -1077,8 +1077,9 @@ html, body {
 
 .ubermich-section {
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .aboutmarco {
@@ -1516,10 +1517,19 @@ a.linkedin-bg:hover {
 .project-description,
 .project-date-category {
     margin: 30px 0 0;
+    font-size: 18px;
+}
+
+.textmarco p {
+    font-size: 18px;
 }
 
 .project-date-category p + p {
     margin-top: 10px;
+}
+
+.h5-angebot {
+    font-size: 22px !important;
 }
 
 .project-date-category p span {

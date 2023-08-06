@@ -176,7 +176,7 @@
 	/* Buttons */
 	.btn {
 		min-width: 140px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	/* Elements */
@@ -351,7 +351,7 @@
 	.slicknav_nav > li a {
 		display: inline-block;
 		color: #26272d;
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 	.slicknav_arrow {

@@ -19,7 +19,7 @@ a:hover {
 
 p {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #4a4a4a;
     line-height: 22px;
@@ -885,6 +885,7 @@ html, body {
 .hero-text .btn {
     position: relative;
     background-color: transparent;
+    font-size: 16px;
 }
 
 .hero-text .btn:hover {

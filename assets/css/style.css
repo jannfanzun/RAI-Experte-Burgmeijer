@@ -669,6 +669,105 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.angebotcontainer {
+    padding-bottom: 10%;
+}
+
+.testangebot1 {
+    /* position: relative; Füge eine relative Position hinzu */
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #4d888e;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    text-transform: uppercase;
+  }
+
+  .testangebot2 {
+    /* position: relative; Füge eine relative Position hinzu */
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #30929f;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    text-transform: uppercase;
+  }
+
+  .testangebot3 {
+    /* position: relative; Füge eine relative Position hinzu */
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #9ec0e5;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    text-transform: uppercase;
+  }
+  .testangebot4 {
+    /* position: relative; Füge eine relative Position hinzu */
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #88b3de;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    text-transform: uppercase;
+  }
+
+  .angebot-p-tag {
+    position: absolute; /* Füge eine absolute Position hinzu */
+    left: 50%; /* Positioniere den Text in der Mitte horizontal */
+    transform: translateX(-50%); /* Zentriere horizontal */
+    bottom: 0; /* Positioniere den Text unten */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    width: 100%; /* Setze die Breite auf 100% */
+    padding-bottom: 30%; /* Füge etwas Abstand hinzu */
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .angebot-p-tag2 {
+    position: absolute; /* Füge eine absolute Position hinzu */
+    left: 50%; /* Positioniere den Text in der Mitte horizontal */
+    transform: translateX(-50%); /* Zentriere horizontal */
+    bottom: 0; /* Positioniere den Text unten */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    width: 100%; /* Setze die Breite auf 100% */
+    padding-bottom: 40%; /* Füge etwas Abstand hinzu */
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+/* @media screen and (max-width: 800px) {
+    .angebot-p-tag {
+    margin-top: -40%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .angebot-p-tag {
+    margin-top: -10%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .angebot-p-tag {
+    margin-top: -60%;
+    }
+} */
+
 .img-res {
     display: block;
     width: 100vw;
@@ -863,16 +962,22 @@ html, body {
 }
 
 .hero-text {
-    max-width: 890px;
+    max-width: 990px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
     text-align: center;
 }
 
+.hero-text span {
+    font-weight: bold;
+}
+
 .hero-text h1 {
     position: relative;
     margin: 0;
+    text-transform: uppercase;
+
 }
 
 .hero-text p {
@@ -1282,6 +1387,7 @@ html, body {
 
 .portfolio-item-title {
     width: 150px; 
+    font-weight: bold;
     top: 15px;  
     transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
     -moz-transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;

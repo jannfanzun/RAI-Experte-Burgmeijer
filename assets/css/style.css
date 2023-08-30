@@ -615,7 +615,7 @@ select {
 
 /* Pricing header */
 .pricetarif .headertarif {
-  background-color: transparent;
+  background-color: white;
   color: rgb(0, 0, 0);
   font-size: 20px;
   border-radius: 20px;
@@ -625,6 +625,8 @@ select {
 /* List items */
 .pricetarif li {
   border-bottom: 1px solid #eee;
+  background-color: white;
+  border-radius: 20px;
   padding: 20px;
   text-align: center;
 }
@@ -1044,6 +1046,17 @@ html, body {
 
 .subpage-hero {
     height: 400px;
+}
+
+#preisbuttondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preisbutton {
+    width: 80%;
+    text-align: center; /* Dies zentriert den Text innerhalb des Buttons */
 }
 
 .subpage-hero.overlay:before {

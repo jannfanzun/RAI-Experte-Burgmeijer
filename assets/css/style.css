@@ -10,6 +10,31 @@ a {
     color: #9fa3a7;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("../../assets_marco/webelem/Burgm_Startseite_Divider_Text.png");
+    /* Set a specific height */
+    min-height: 300px;
+    background-color: #007f8b;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Stellt sicher, dass die Position des h2 relativ zur .parallax ist */
+}
+
+
+.parallax h2 {
+    position: absolute;
+    color: white;
+    top: 50%; /* Zentriert den Text vertikal in der .parallax */
+    left: 50%; /* Zentriert den Text horizontal in der .parallax */
+    transform: translate(-50%, -50%); /* Zentriert den Text genau in der Mitte */
+    padding: 10px; /* Fügt etwas Abstand um den Text hinzu */
+}
+
 a:focus,
 a:hover {
     /* color: #4d888e; */

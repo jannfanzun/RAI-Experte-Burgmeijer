@@ -41,11 +41,7 @@ p {
 
 a:focus,
 a:hover {
-<<<<<<< HEAD
-    color: #007f8b;
-=======
     /* color: #4d888e; */
->>>>>>> 3fbb6dbf7c6a52ebf30ac0819e7e4acb5246d8e0
     outline: 0 none;
     text-decoration: none;
 }
@@ -1127,9 +1123,6 @@ html, body {
     text-align: center; /* Dies zentriert den Text innerhalb des Buttons */
 }
 
-.subpage-hero.overlay:before {
-    /* background-color: rgba(78, 79, 82, 0.5); */
-}
 
 .subpage-hero .hero-content,
 .subpage-hero a  {
@@ -1142,11 +1135,7 @@ html, body {
 }
 
 .subpage-hero a:hover {
-<<<<<<< HEAD
-    color: #007f8b;
-=======
     color: #000000;
->>>>>>> 3fbb6dbf7c6a52ebf30ac0819e7e4acb5246d8e0
 }
 
 
@@ -1414,19 +1403,6 @@ html, body {
     color: black;
     cursor: pointer;
     padding: 15px;
-<<<<<<< HEAD
-    width: 40px;
-    height: auto;
-}
-
-.hidden {
-    display: none;
-}
-
-#myBtn:hover {
-    background-color: transparent;
-}
-=======
   }
   
   #svgContainer {
@@ -1436,7 +1412,6 @@ html, body {
 
 
 
->>>>>>> 3fbb6dbf7c6a52ebf30ac0819e7e4acb5246d8e0
 .referenzen1-section {
     padding: 0;
     box-sizing: border-box;

@@ -10,11 +10,48 @@ a {
     color: #9fa3a7;
 }
 
+p {
+    line-height: 1.35 !important;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../../assets_marco/webelem/Burgm_Startseite_Divider_Text.png");
+    /* Set a specific height */
+    min-height: 300px;
+    background-color: #007f8b;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Stellt sicher, dass die Position des h2 relativ zur .parallax ist */
+}
+
+
+.parallax h2 {
+    position: absolute;
+    color: white;
+    top: 50%; /* Zentriert den Text vertikal in der .parallax */
+    left: 50%; /* Zentriert den Text horizontal in der .parallax */
+    transform: translate(-50%, -50%); /* Zentriert den Text genau in der Mitte */
+    padding: 10px; /* Fügt etwas Abstand um den Text hinzu */
+}
+
 a:focus,
 a:hover {
+<<<<<<< HEAD
     color: #007f8b;
+=======
+    /* color: #4d888e; */
+>>>>>>> 3fbb6dbf7c6a52ebf30ac0819e7e4acb5246d8e0
     outline: 0 none;
     text-decoration: none;
+}
+
+.navbarwhite {
+    color: white !important;
 }
 
 p {
@@ -67,6 +104,31 @@ p + p {
 
 .btn-border {
     border: 1px solid #26272d;
+}
+
+.btn-border1 {
+    border: 1px solid #ffffff;
+}
+
+.btn1 {
+    line-height: 50px;
+    min-width: 200px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.btn-border1 {
+    border: 1px solid #ffffff;
 }
 
 .btn-fill {
@@ -856,7 +918,7 @@ html, body {
 .navbar-nav > li > a, 
 .slicknav_nav > li > a {
     padding: 0;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
     color: #26272d;
     line-height: 26px;
@@ -957,7 +1019,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../../assets_marco/images/herosection2.jpg) no-repeat center / cover; 
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     display: table;
@@ -966,13 +1028,13 @@ html, body {
 
 @media screen and (max-width: 700px) {
     .hero {
-        background-position: right; /* Setzt die horizontale Position des Hintergrundbildes auf "rechts zentriert" ab 700px */
+        background-position: left; /* Setzt die horizontale Position des Hintergrundbildes auf "rechts zentriert" ab 700px */
     }
 }
 
 .overlay:before {
   content: '';
-  background-color: rgba(255,255,255,0.5);
+  /* background-color: rgba(255,255,255,0.5); */
   height: 100%;
   width: 100%;
   position: absolute;
@@ -997,11 +1059,15 @@ html, body {
 
 .hero-text span {
     font-weight: bold;
+    color: white !important;
+
 }
 
 .hero-text h1 {
     position: relative;
     margin: 0;
+    color: white !important;
+
 
 }
 
@@ -1009,18 +1075,19 @@ html, body {
     position: relative;
     margin: 45px 0 30px;
     font-size: 20px;
-    color: #26272d;
+    color: #ffffff;
 }
 
 .hero-text .btn {
     position: relative;
     background-color: transparent;
     font-size: 16px;
+    color: white;
 }
 
 .hero-text .btn:hover {
-    background-color: #26272d;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .hero .breadcrumb {
@@ -1061,7 +1128,7 @@ html, body {
 }
 
 .subpage-hero.overlay:before {
-    background-color: rgba(78, 79, 82, 0.5);
+    /* background-color: rgba(78, 79, 82, 0.5); */
 }
 
 .subpage-hero .hero-content,
@@ -1075,28 +1142,32 @@ html, body {
 }
 
 .subpage-hero a:hover {
+<<<<<<< HEAD
     color: #007f8b;
+=======
+    color: #000000;
+>>>>>>> 3fbb6dbf7c6a52ebf30ac0819e7e4acb5246d8e0
 }
 
 
 .portfolio-hero {
-    background: url(../../assets_marco/images/minimaBG-modified.png) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
 }
 
 .blog-hero {
-    background: url(../../assets_marco/images/blauesmuster.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
 }
 
 .contact-hero {
-    background: url(../../assets_marco/images/miniBG.png) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
 }
 
 .teilangebote-hero {
-    background: url(../../assets_marco/images/pexels-tima-miroshnichenko-6694543.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
 }
 
 .angebote-hero {
-    background: url(../../assets_marco/images/pexels-tima-miroshnichenko-6693655.jpg) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
 }
 .referenzen-section {
     width: 100%;
@@ -1261,7 +1332,8 @@ html, body {
 
 .aboutmarco1 {
     width: 100%;
-    height: 65vh;
+    height: 70vh;
+    padding-top: 5%;
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -1332,7 +1404,6 @@ html, body {
 }
 
 #myBtn {
-    display: none; /* Standardmäßig ausblenden */
     position: fixed;
     bottom: 20px;
     right: 70px;
@@ -1343,6 +1414,7 @@ html, body {
     color: black;
     cursor: pointer;
     padding: 15px;
+<<<<<<< HEAD
     width: 40px;
     height: auto;
 }
@@ -1354,6 +1426,17 @@ html, body {
 #myBtn:hover {
     background-color: transparent;
 }
+=======
+  }
+  
+  #svgContainer {
+    display: none; /* Standardmäßig ausblenden */
+  }
+
+
+
+
+>>>>>>> 3fbb6dbf7c6a52ebf30ac0819e7e4acb5246d8e0
 .referenzen1-section {
     padding: 0;
     box-sizing: border-box;

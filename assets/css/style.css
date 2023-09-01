@@ -12,9 +12,13 @@ a {
 
 a:focus,
 a:hover {
-    color: #4d888e;
+    /* color: #4d888e; */
     outline: 0 none;
     text-decoration: none;
+}
+
+.navbarwhite {
+    color: white !important;
 }
 
 p {
@@ -67,6 +71,31 @@ p + p {
 
 .btn-border {
     border: 1px solid #26272d;
+}
+
+.btn-border1 {
+    border: 1px solid #ffffff;
+}
+
+.btn1 {
+    line-height: 50px;
+    min-width: 200px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.btn-border1 {
+    border: 1px solid #ffffff;
 }
 
 .btn-fill {
@@ -856,7 +885,7 @@ html, body {
 .navbar-nav > li > a, 
 .slicknav_nav > li > a {
     padding: 0;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
     color: #26272d;
     line-height: 26px;
@@ -966,7 +995,7 @@ html, body {
 
 @media screen and (max-width: 700px) {
     .hero {
-        background-position: right; /* Setzt die horizontale Position des Hintergrundbildes auf "rechts zentriert" ab 700px */
+        background-position: left; /* Setzt die horizontale Position des Hintergrundbildes auf "rechts zentriert" ab 700px */
     }
 }
 
@@ -997,11 +1026,15 @@ html, body {
 
 .hero-text span {
     font-weight: bold;
+    color: white !important;
+
 }
 
 .hero-text h1 {
     position: relative;
     margin: 0;
+    color: white !important;
+
 
 }
 
@@ -1009,18 +1042,19 @@ html, body {
     position: relative;
     margin: 45px 0 30px;
     font-size: 20px;
-    color: #26272d;
+    color: #ffffff;
 }
 
 .hero-text .btn {
     position: relative;
     background-color: transparent;
     font-size: 16px;
+    color: white;
 }
 
 .hero-text .btn:hover {
-    background-color: #26272d;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .hero .breadcrumb {
@@ -1333,7 +1367,6 @@ html, body {
 }
 
 #myBtn {
-    display: none; /* Standardmäßig ausblenden */
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -1345,13 +1378,15 @@ html, body {
     color: black;
     cursor: pointer;
     padding: 15px;
-    border-radius: 20%;
-}
+  }
+  
+  #svgContainer {
+    display: none; /* Standardmäßig ausblenden */
+  }
 
-#myBtn:hover {
-    background-color: #ededed;
-    border-radius: 20%;
-}
+
+
+
 .referenzen1-section {
     padding: 0;
     box-sizing: border-box;

@@ -12,7 +12,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #4d888e;
+    color: #007f8b;
     outline: 0 none;
     text-decoration: none;
 }
@@ -80,7 +80,7 @@ p + p {
 }
 
 .btn-green {
-    background-color: #4d888e;
+    background-color: #007f8b;
     color: #fff;  
 }
 
@@ -94,7 +94,7 @@ button.btn:focus {
 
 .btn-gray:hover,
 .btn-gray:focus {
-    background-color: #4d888e;
+    background-color: #007f8b;
     color: #fff;    
 }
 
@@ -203,7 +203,7 @@ input[type=radio] {
     width: 20px;
     border-radius: 3px;
     color: #fff;
-    background-color: #4d888e;
+    background-color: #007f8b;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -240,12 +240,12 @@ input[type=radio] {
 
 .checkbox [type="checkbox"]:checked:focus + label:before,
 .checkbox [type="checkbox"]:not(:checked):focus + label:before {
-    border: 1px dotted #4d888e;
+    border: 1px dotted #007f8b;
 }
 
 .checkbox [type="checkbox"]:not(:checked) + label:hover:before,
 .checkbox [type="checkbox"]:checked + label:hover:before {
-    border: 1px solid #4d888e;
+    border: 1px solid #007f8b;
 }
 
 /* Radiobutton fields */
@@ -293,7 +293,7 @@ input[type=radio] {
     height: 12px;
     top: 50%;
     left: 4px;
-    background-color: #4d888e;
+    background-color: #007f8b;
     border-radius: 50px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -331,12 +331,12 @@ input[type=radio] {
 
 .radio-btn [type="radio"]:checked:focus + label:before,
 .radio-btn [type="radio"]:not(:checked):focus + label:before {
-    border: 1px dotted #4d888e;
+    border: 1px dotted #007f8b;
 }
 
 .radio-btn [type="radio"]:checked + label:hover:before,
 .radio-btn [type="radio"]:not(:checked) + label:hover:before {
-    border: 1px solid #4d888e;
+    border: 1px solid #007f8b;
 }
 
 /* Selectpicker */
@@ -408,7 +408,7 @@ select {
 }
 
 .bootstrap-select .selected {
-    color: #4d888e;
+    color: #007f8b;
 }
 
 .bootstrap-select .check-mark {
@@ -430,8 +430,8 @@ select {
 
 .nav-tabs.tab-style > li.active > a,
 .nav-tabs.tab-style > li > a:hover {
-    border: 1px solid #4d888e;
-    background-color: #4d888e;
+    border: 1px solid #007f8b;
+    background-color: #007f8b;
     color: #fff;
 }
 
@@ -507,7 +507,7 @@ select {
 .accordion .panel-heading a.collapsed:hover,
 .accordion.accordion-gray .panel-heading a.collapsed:hover,
 .accordion .panel-heading a {
-    background-color: #4d888e;   
+    background-color: #007f8b;   
     color: #fff; 
 }
 
@@ -555,7 +555,7 @@ select {
 .pagination > li.active > a,
 .pagination > li > a:hover,
 .pagination > li.active > a:hover {
-  background-color: #4d888e;
+  background-color: #007f8b;
   color: #fff;
 }
 
@@ -606,7 +606,7 @@ select {
 
 }
 .headerprice {
-    background-color: #4d888e;
+    background-color: #007f8b;
 }
 /* Add shadows on hover */
 .pricetarif:hover {
@@ -688,13 +688,13 @@ html, body {
 }
 
 .headersectionh2{
-    color: #4d888e;
+    color: #007f8b;
     text-align: center;
     margin-bottom: 5%;
 }
 
 .headersectionh2ubermich{
-    color: #4d888e;
+    color: #007f8b;
     text-align: center;
     margin-bottom: 10%;
 }
@@ -705,7 +705,7 @@ html, body {
     height: 100vh;
     max-width: 100%;
     max-height: 100%;
-    background-color: #4d888e;
+    background-color: #007f8b;
     color: white;
     text-align: center;
     padding-top: 5%;
@@ -927,7 +927,7 @@ html, body {
     border-radius: 0;
     min-width: 130px;
     border: 0;
-    border-top: 5px solid #4d888e;
+    border-top: 5px solid #007f8b;
     top: 140%;
     transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -1075,7 +1075,7 @@ html, body {
 }
 
 .subpage-hero a:hover {
-    color: #4d888e;
+    color: #007f8b;
 }
 
 
@@ -1188,7 +1188,6 @@ html, body {
 .eintrittsspruch {
     font-size: 18px;
     margin-bottom: -3%;
-    font-weight: 600;
 }
 
 @media screen and (max-width: 992px){
@@ -1217,7 +1216,7 @@ html, body {
     height: 2px;
     width: 50px;
     margin: 0 auto;
-    background-color: #4d888e;
+    background-color: #007f8b;
 }
 
 /* Section: Features */
@@ -1336,21 +1335,24 @@ html, body {
     display: none; /* Standardmäßig ausblenden */
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 70px;
     z-index: 99;
-    font-size: 20px;
     border: none;
     outline: none;
     background-color: transparent;
     color: black;
     cursor: pointer;
     padding: 15px;
-    border-radius: 20%;
+    width: 40px;
+    height: auto;
+}
+
+.hidden {
+    display: none;
 }
 
 #myBtn:hover {
-    background-color: #ededed;
-    border-radius: 20%;
+    background-color: transparent;
 }
 .referenzen1-section {
     padding: 0;
@@ -1645,7 +1647,7 @@ html, body {
 
 .list-unstyled li a:hover,
 .list-unstyled li.active a {
-    color: #4d888e;
+    color: #007f8b;
 }
 
 /* Copyright */
@@ -1892,12 +1894,12 @@ a.linkedin-bg:hover {
 }
 
 .post-content .read-more:hover:after {
-    background-color: #4d888e; 
+    background-color: #007f8b; 
 }
 
 .blog-post a:hover + .post-content .post-title a,
 .post-content a:hover {
-    color: #4d888e;
+    color: #007f8b;
 }
 
 .post-meta {
@@ -2062,7 +2064,7 @@ a.linkedin-bg:hover {
 }
 
 .referenzen-info h3 {
-    color: #4d888e !important;
+    color: #007f8b !important;
     font-size: 24px;
     font-weight: 500; 
     text-align: center;

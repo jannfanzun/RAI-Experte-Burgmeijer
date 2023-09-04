@@ -754,7 +754,7 @@ html, body {
 .headersectionh2ubermich{
     color: #007f8b;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .testangebot1 {
@@ -1119,7 +1119,7 @@ html, body {
 }
 
 .preisbutton {
-    width: 80%;
+    width: 60%;
     text-align: center; /* Dies zentriert den Text innerhalb des Buttons */
 }
 

@@ -756,6 +756,16 @@ html, body {
     text-align: center;
     margin-bottom: 10%;
 }
+.headersectionh2ubermich1{
+    color: #007f8b;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+
+.hidden {
+    display: none;
+}
 
 .testangebot1 {
     /* position: relative; Füge eine relative Position hinzu */
@@ -1395,7 +1405,7 @@ html, body {
 #myBtn {
     position: fixed;
     bottom: 20px;
-    right: 70px;
+    right: 2%;
     z-index: 99;
     border: none;
     outline: none;
@@ -1404,12 +1414,26 @@ html, body {
     cursor: pointer;
     padding: 15px;
   }
-  
   #svgContainer {
-    display: none; /* Standardmäßig ausblenden */
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    display: none;
+  }
+  #svgstart:hover {
+    display: none; /* Beim Hover ausblenden */
   }
 
-
+  #svgclick:hover, #svgclick.shown {
+    display: block;
+}
 
 
 .referenzen1-section {
@@ -2142,6 +2166,10 @@ a.linkedin-bg:hover {
     padding-bottom: 5%;
 }
 
+.section-referenzen {
+    padding-bottom: 10%;
+}
+
 .imagereferenzen {
     align-items: center;
     justify-content: center;
@@ -2167,7 +2195,8 @@ a.linkedin-bg:hover {
     margin-top: 35px;
 }
 .referenzen-info {
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    margin-right: 10%;
 }
 .contact-info {
     padding-left: 30px;

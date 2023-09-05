@@ -41,6 +41,8 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/test.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -63,7 +65,7 @@
       <a onclick="topFunction()" title="Go to top" id="svgContainer">
         <img id="svgclick" src="assets_marco/webelem/Burgm_Pfeil_HGpetrol.svg" alt="">
       </a>
-    <header id="masthead" class="site-header site-header-white">
+    <!-- <header id="masthead" class="site-header site-header-white">
         <nav id="primary-navigation" class="site-navigation navbarwhite">
             <div class="container">
 
@@ -72,7 +74,7 @@
                     <a href="#" class="site-title"><span>BURGMEIJER </span>RAI-Experte</a>
 
 
-                </div><!-- /.navbar-header -->
+                </div>
 
                 <div class="collapse navbar-collapse" id="agency-navbar-collapse">
 
@@ -84,15 +86,32 @@
                         <li><a href="./#angebot">Angebot</a></li>
                         <li><a href="./#ubermich">Über mich</a></li>
                         <li><a href="./#kontakt">Kontakt</a></li>
-                        <!-- <li><a href="ui-elements.html">UI Elements</a></li> -->
 
                     </ul>
 
                 </div>
 
             </div>   
-        </nav><!-- /.site-navigation -->
-    </header><!-- /#mastheaed -->
+        </nav>
+    </header> -->
+
+    <header class="header site-header-white">
+        <div class="navbar-header">
+        <a href="#" class="site-title"><span>BURGMEIJER </span>RAI-Experte</a>
+    </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <nav class="navbar1">
+            <a href="#" style="--i:0;" id="firstlink">Start</a>
+            <a href="#angebot" style="--i:1;">Angebot</a>
+            <a href="#ubermich" style="--i:2;">Über mich</a>
+            <a href="#kontakt" style="--i:3;">Kontakt</a>
+        </nav>   
+   
+    </header>
 
     <div id="hero" class="hero">
         <div class="hero-content">
@@ -572,6 +591,22 @@
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('.navbar a');
+            const check = document.getElementById('check');
+        
+            links.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth <= 768) {
+                        check.checked = false;
+                    }
+                });
+            });
+        });
+        </script>
+        
+        
   
 </body>
 </html>

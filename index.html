@@ -593,12 +593,12 @@
     <script src="assets/js/script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const links = document.querySelectorAll('.navbar a');
+            const links = document.querySelectorAll('.navbar1 a');
             const check = document.getElementById('check');
         
             links.forEach(link => {
                 link.addEventListener('click', () => {
-                    if (window.innerWidth <= 768) {
+                    if (window.innerWidth <= 800) {
                         check.checked = false;
                     }
                 });

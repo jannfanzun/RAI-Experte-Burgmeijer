@@ -97,7 +97,7 @@
     }
 
     #check:checked~.navbar1 {
-        height: 100000vh;
+        height: 110vh;
         background-color: white;
         z-index: 1000;
     }

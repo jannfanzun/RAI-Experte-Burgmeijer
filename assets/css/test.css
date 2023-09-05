@@ -7,11 +7,13 @@
     width: 100%;
     display: flex;
     padding: 1.3rem;
-    padding-left: 10%;
+    padding-left: 8%;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    padding-top: 30px;
+    padding-top: 3%;
+    padding-right: 5%;
+    
 }
 
 .header::before {
@@ -62,7 +64,7 @@
 @media (max-width: 992px){
     .header {
         padding: 1.3rem 5%;
-        padding-top: 30px;
+        padding-top: 5%;
     }
 }
 

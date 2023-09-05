@@ -1402,36 +1402,34 @@ html, body {
     }
 }
 
-#myBtn {
+.svgContainer {
     position: fixed;
     bottom: 4%;
-    right: 2%;
+    right: 3%;
     z-index: 99;
     border: none;
     outline: none;
     background-color: transparent;
     color: black;
     cursor: pointer;
-    /* padding: 15px; */
-    border-radius: 50%;
-  }
-  #svgContainer {
-    position: fixed;
-    bottom: 20px;
-    right: 2%;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: black;
-    cursor: pointer;
-    /* padding: 15px; */
-    display: none;
-  }
+}
 
-  #myBtn:hover {
-    background-color: #aaddfc85;
-  }
+.svg {
+    display: block;
+    transition: .3s ease;
+}
+
+#svg2 {
+    display: none;
+}
+
+#svgLink:hover #svg1 {
+    display: none;
+}
+
+#svgLink:hover #svg2 {
+    display: block;
+}
 
 
 

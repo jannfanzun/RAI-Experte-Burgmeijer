@@ -237,3 +237,16 @@ const toggleButton = document.getElementById('toggleButton');
         }
         
 
+
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('.navbar1 a');
+          const check = document.getElementById('check');
+      
+          links.forEach(link => {
+              link.addEventListener('click', () => {
+                  if (window.innerWidth <= 800) {
+                      check.checked = false;
+                  }
+              });
+          });
+      });

@@ -24,7 +24,10 @@
     ================================================== -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -425,8 +428,26 @@
                     </div>
                 </div>
             </div>
-            
         </section>
+
+        <div class="containerBild">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="assets_marco/images/Foto_Marco_Hund.png"></div>
+                  <div class="swiper-slide"><img src="assets_marco/images/Foto_Marco_Computer.png"></div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+        </div>
 
         <!-- <section class="referenzen-section">
             <div class="referenzen-row">
@@ -595,22 +616,27 @@
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const links = document.querySelectorAll('.navbar1 a');
-            const check = document.getElementById('check');
         
-            links.forEach(link => {
-                link.addEventListener('click', () => {
-                    if (window.innerWidth <= 800) {
-                        check.checked = false;
-                    }
-                });
-            });
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+        const swiper = new Swiper('.swiper', {
+          loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+          },
+        
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        
         });
-        </script>
-        
-        
+</script>
   
 </body>
 </html>

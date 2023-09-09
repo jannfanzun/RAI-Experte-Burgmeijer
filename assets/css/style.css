@@ -1314,6 +1314,75 @@ html, body {
     width: 50%;
 }
 
+.containerBild {
+    width: 100%;
+    height: 60vh;
+    background:  url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 40%;
+    height: fit-content;  
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+@media screen and (max-width: 1780px) {
+    .swiper {
+        width: 60%;
+        height: fit-content;  
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .swiper {
+        width: 70%;
+        height: fit-content;  
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .swiper {
+        width:80%;
+        height: fit-content;  
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .swiper {
+        width:80%;
+        height: fit-content;  
+    }
+
+    .containerBild {
+        height: 40vh;
+        background-position: left;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .swiper {
+        width:90%;
+        height: fit-content;  
+    }
+
+}
+
+
 .ubermich-section {
     padding: 0;
     box-sizing: border-box;

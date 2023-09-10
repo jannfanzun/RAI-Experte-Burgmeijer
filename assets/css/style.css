@@ -16,8 +16,8 @@ p {
 
 .parallax {
     /* The image used */
-    background-image: url("../../assets_marco/webelem/Burgm_Startseite_Divider_Text.png");
-    background-size: 140%;
+    background-image: url(../../assets_marco/webelem/Burgm_Startseite_Divider_Text.png) !important;
+    background-size: 140% !important;
     /* Set a specific height */
     min-height: 300px;
     background-color: #007f8b;
@@ -32,8 +32,8 @@ p {
 
 @media screen and (max-width: 800px) {
     .parallax {
-        background-image: url("../../assets_marco/images/Burgm_Startseite_Divider_Mob_230907.png");
-        background-size: 70%;
+        background-image: url(../../assets_marco/images/Burgm_Startseite_Divider_Mob_230907.png) !important;
+        background-size: 70% !important;
     }
 }
 

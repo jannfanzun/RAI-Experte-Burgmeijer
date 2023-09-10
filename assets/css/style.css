@@ -20,6 +20,7 @@ p {
     background-size: 140% !important;
     /* Set a specific height */
     min-height: 300px;
+    z-index: 10;
     background-color: #007f8b;
   
     /* Create the parallax scrolling effect */
@@ -27,7 +28,6 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; /* Stellt sicher, dass die Position des h2 relativ zur .parallax ist */
 }
 
 @media (max-width: 800px) {

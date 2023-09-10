@@ -17,7 +17,7 @@ p {
 .parallax {
     /* The image used */
     background-image: url("../../assets_marco/webelem/Burgm_Startseite_Divider_Text.png");
-    background-size: 140% !important;
+    background-size: 140%;
     /* Set a specific height */
     min-height: 300px;
     background-color: #007f8b;
@@ -33,7 +33,7 @@ p {
 @media screen and (max-width: 800px) {
     .parallax {
         background-image: url("../../assets_marco/images/Burgm_Startseite_Divider_Mob_230907.png");
-        background-size: 70% !important;
+        background-size: 70%;
     }
 }
 
@@ -1328,8 +1328,8 @@ html, body {
     height: fit-content;  
 }
 
-.swiper-slide img {
-    width: 100% !important;
+.imgslide {
+    width: 100%;
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next {

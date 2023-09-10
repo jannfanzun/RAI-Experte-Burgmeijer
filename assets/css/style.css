@@ -30,7 +30,7 @@ p {
     position: relative; /* Stellt sicher, dass die Position des h2 relativ zur .parallax ist */
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .parallax {
         background-image: url(../../assets_marco/images/Burgm_Startseite_Divider_Mob_230907.png);
         background-size: 70% !important;
@@ -747,7 +747,7 @@ html, body {
   overflow: hidden; /* Verhindert, dass das Bild aus dem runden Container herausragt */
 }
 
-@media screen and (max-width: 911px) {
+@media (max-width: 911px) {
     #marcorund {
         margin-top: 10%;
     }
@@ -853,17 +853,17 @@ html, body {
     padding-right: 2%;
   }
 
-/* @media screen and (max-width: 800px) {
+/* @media (max-width: 800px) {
     .angebot-p-tag {
     margin-top: -40%;
     }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .angebot-p-tag {
     margin-top: -10%;
     }
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     .angebot-p-tag {
     margin-top: -60%;
     }
@@ -1039,7 +1039,7 @@ html, body {
     position: relative;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
     .hero {
         background: url(../../assets_marco/images/handystart.png) no-repeat left / cover;
         }
@@ -1221,7 +1221,7 @@ html, body {
 }
 
 /* Media Query für Bildschirm kleiner als 1200px */
-@media screen and (max-width: 1400px) {
+@media (max-width: 1400px) {
     .referenzen-div {
         flex-basis: 45%; /* Jedes Bild wird auf 45% der verfügbaren Breite festgelegt */
         margin-top: 8%;
@@ -1230,7 +1230,7 @@ html, body {
 }
 
 /* Media Query für Bildschirm kleiner als 850px */
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
     .referenzen-div {
         flex-basis: 1%; /* Jedes Bild nimmt 100% der verfügbaren Breite */
         margin-top: 8%;
@@ -1272,7 +1272,7 @@ html, body {
     margin-bottom: -3%;
 }
 
-@media screen and (max-width: 992px){
+@media (max-width: 992px){
     .imgTopLogo {
         margin-top: 15%;
     }
@@ -1326,8 +1326,6 @@ html, body {
 
 .swiper {
     width: 100%; /* Breite auf 100% setzen, damit sie immer innerhalb des Containers passt */
-    max-width: 60%; /* Wenn die Breite auf 60% des Containers begrenzt sein soll */
-    height: auto; /* Höhe auf 'auto' setzen, um das Seitenverhältnis beizubehalten */
 }
 
 .imgslide {
@@ -1343,28 +1341,28 @@ html, body {
     background-color: white;
 }
 
-@media screen and (max-width: 1780px) {
+@media (max-width: 1780px) {
     .swiper {
         width: 80%;
         height: fit-content;  
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
     .swiper {
         width: 50%;
         height: fit-content;  
     }
 }
 
-@media screen and (max-width: 980px) {
+@media (max-width: 980px) {
     .swiper {
         width:70%;
         height: fit-content;  
     }
 }
 
-@media screen and (max-width: 780px) {
+@media (max-width: 780px) {
     .swiper {
         width:70%;
         height: fit-content;  
@@ -1377,7 +1375,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
     .swiper {
         width:90%;
         height: fit-content;  
@@ -1455,7 +1453,7 @@ html, body {
     margin-bottom: 3%;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .aboutmarco {
         width: 100%;
         height: auto;
@@ -1471,7 +1469,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
     .aboutmarco {
         width: 100%;
         height: auto;
@@ -1572,7 +1570,7 @@ html, body {
     margin-bottom: 3%;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .marcoreferenzen {
         width: 100%;
         height: auto;
@@ -1583,7 +1581,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
     .marcoreferenzen {
         width: 100%;
         height: auto;
@@ -2258,7 +2256,7 @@ a.linkedin-bg:hover {
     display: flex !important;
 }
 
-@media screen and(max-width: 800px) {
+@media(max-width: 800px) {
     .imagereferenzen img {
         width: 200px;
     }

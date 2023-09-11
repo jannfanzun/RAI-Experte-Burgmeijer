@@ -208,10 +208,10 @@ const toggleButton = document.getElementById('toggleButton');
         toggleButton.addEventListener('click', () => {
             if (sectionToToggle.classList.contains('hidden')) {
                 sectionToToggle.classList.remove('hidden');
-                toggleButton.textContent = 'Preisansicht schliessen';
+                toggleButton.textContent = 'Tarife schliessen';
             } else {
                 sectionToToggle.classList.add('hidden');
-                toggleButton.textContent = 'Preisansicht öffnen';
+                toggleButton.textContent = 'Tarife öffnen';
             }
         });
 

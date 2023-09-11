@@ -38,6 +38,7 @@
     text-decoration: none;
     margin-right: 2.5rem;
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 .navbar1 a:hover {
@@ -68,7 +69,7 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 860px){
 
     .header {
         padding-left: 15px;
@@ -100,6 +101,7 @@
         z-index: -1;
         overflow: hidden;
         transition: .3s ease;
+        
     }
 
     #check:checked~.navbar1 {

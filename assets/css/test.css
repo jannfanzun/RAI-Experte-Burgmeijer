@@ -132,6 +132,10 @@
 
 @media (max-width: 350px){ 
     .site-title {
-        font-size: 18px;
+        font-size: 18px !important;
+    }
+
+    .navbar-header a {
+        font-size: 18px !important;
     }
 }

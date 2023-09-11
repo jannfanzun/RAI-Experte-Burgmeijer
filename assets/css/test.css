@@ -129,3 +129,9 @@
         transition-delay: calc(.1s * var(--i));
     }
 }
+
+@media (max-width: 350px){ 
+    .site-title {
+        font-size: 18px;
+    }
+}

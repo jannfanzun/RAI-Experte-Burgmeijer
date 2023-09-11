@@ -1143,6 +1143,8 @@ html, body {
 
 .subpage-hero {
     height: 400px;
+    left: 0;
+    padding: 0;
 }
 
 #preisbuttondiv {
@@ -1177,20 +1179,12 @@ html, body {
 }
 
 
-.portfolio-hero {
-    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
-}
-
-.blog-hero {
-    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
-}
-
 .contact-hero {
-    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf_small.png) no-repeat left / cover;
 }
 
 .teilangebote-hero {
-    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf_small.png) no-repeat left / cover; 
 }
 
 .angebote-hero {

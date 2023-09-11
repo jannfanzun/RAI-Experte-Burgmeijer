@@ -1185,10 +1185,13 @@ html, body {
 
 .teilangebote-hero {
     background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf_small.png) no-repeat left / cover; 
+    background-color: #007f8b !important;
+    left: 0 !important;
 }
 
 .angebote-hero {
-    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;     
+    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf.png) no-repeat center / cover;   
+
 }
 .referenzen-section {
     width: 100%;

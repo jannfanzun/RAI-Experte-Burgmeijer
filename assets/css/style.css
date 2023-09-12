@@ -1402,6 +1402,32 @@ html, body {
 
 }
 
+.container-ubermich {
+    display: flex;
+    flex-wrap: wrap; /* Hier wird das Flex-Wrap-Verhalten aktiviert */
+    justify-content: space-between;
+}
+
+.flexbox {
+    flex: 1;
+    text-align: left !important;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px; /* Abstand zwischen den Zeilen */
+    box-sizing: border-box; /* Verhindert, dass der Rand die Breite beeinflusst */
+}
+
+/* Media Query für Bildschirmbreite kleiner oder gleich 800px */
+@media (max-width: 800px) {
+    .container-ubermich {
+        flex-direction: column; /* Ändert die Flexbox-Richtung in eine Spalte */
+    }
+    
+    .flexbox {
+        width: 90%; /* Ändert die Breite auf 100%, um nur eine Box pro Zeile zu haben */
+    }
+}
+
 
 .ubermich-section {
     padding: 0;
@@ -1477,7 +1503,6 @@ html, body {
     .aboutmarco {
         width: 100%;
         height: auto;
-        /* padding: 70px 0px; */
     }
     .aboutmarco1 {
         width: 100%;

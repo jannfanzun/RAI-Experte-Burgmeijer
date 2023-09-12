@@ -1202,6 +1202,13 @@ html, body {
     margin-bottom: 4%;
 }
 
+#contactbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
 .preisbutton {
     width: 30%;
     text-align: center; /* Dies zentriert den Text innerhalb des Buttons */
@@ -1459,6 +1466,14 @@ html, body {
     display: flex;
     flex-wrap: wrap; /* Hier wird das Flex-Wrap-Verhalten aktiviert */
     justify-content: space-between;
+}
+
+.ubermich-contact {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .parent {

@@ -1111,6 +1111,15 @@ html, body {
     padding-top: 75px;
 }
 
+@media (max-width: 497px) {
+    .headingHero {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
 .hero-text {
     max-width: 990px;
     width: 100%;

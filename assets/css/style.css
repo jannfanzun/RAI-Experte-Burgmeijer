@@ -17,7 +17,7 @@ p {
 .parallax {
     /* The image used */
     background-image: url(../../assets_marco/webelem/Burgm_Startseite_Divider_Text.png);
-    background-size: 140% !important;
+    background-size: 100% !important;
     /* Set a specific height */
     min-height: 300px;
     z-index: 10;
@@ -1356,7 +1356,7 @@ html, body {
 }
 @media (max-width: 2000px){
     .swiper {
-        width: 50%;
+        width: 40%;
     }
 }
 

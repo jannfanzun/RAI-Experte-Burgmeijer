@@ -748,7 +748,7 @@ html, body {
 }
 
 .angebotcontainer {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     background-color: #f0f5fb;
 }
 
@@ -1152,6 +1152,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4%;
 }
 
 .preisbutton {
@@ -1405,7 +1406,7 @@ html, body {
 .ubermich-section {
     padding: 0;
     box-sizing: border-box;
-    margin-bottom: 7%;    
+    margin-bottom: 2%;    
     height: fit-content;
 
 }

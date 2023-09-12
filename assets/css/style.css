@@ -2097,7 +2097,32 @@ a.linkedin-bg:hover {
  */
 .project-img {
     height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.beratung-img {
+    background-color: #9ec0e5;
+}
+
+.tarif-img {
+    background-color: #007f8b;
+}
+
+.wechsel-img {
+    background-color: #88b3de;
+}
+
+.heiminterne-img {
+    background-color: #30929f;
+}
+
+.h1-subangebot {
+    color: white;
+    text-align: center;
+}
+
 
 .project-img + .project-img  {
     margin-top: 20px;

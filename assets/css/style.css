@@ -108,6 +108,26 @@ p + p {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
+#downSvg1,
+#downSvg2 {
+    display: inline-block;
+    margin: 0 auto; /* Horizontal zentrieren */
+    width: 60px; /* Breite des SVG-Bildes */
+    cursor: pointer; /* Zeige den Handzeiger beim Hover */
+}
+
+#downSvg2 {
+    display: none;
+}
+
+#customSvgLink:hover #downSvg1 {
+    display: none;
+}
+
+#customSvgLink:hover #downSvg2 {
+    display: inline-block; /* Stelle das SVG wieder dar */
+}
+
 .svgstart {
     transform: rotate(180deg) !important;
     width: 60px;
@@ -115,6 +135,17 @@ p + p {
     padding: 0;
     margin-top: 7%;
 }
+
+.svgback {
+    transform: rotate(270deg) !important;
+    width: 60px;
+    border: 0;
+    padding: 0;
+    /* margin-top: 7%; */
+}
+
+
+
 
 .btn-border {
     border: 1px solid #26272d;
@@ -1089,7 +1120,7 @@ html, body {
 
 .hero-text h1 {
     position: relative;
-    margin: 0;
+    /* margin: 0; */
     color: white !important;
 
 
@@ -1415,6 +1446,10 @@ html, body {
     text-align: center;
     margin-bottom: 10px; /* Abstand zwischen den Zeilen */
     box-sizing: border-box; /* Verhindert, dass der Rand die Breite beeinflusst */
+}
+
+.flexbox p {
+    font-size: 18px;
 }
 
 /* Media Query für Bildschirmbreite kleiner oder gleich 800px */

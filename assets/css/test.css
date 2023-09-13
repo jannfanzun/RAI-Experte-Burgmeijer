@@ -114,7 +114,8 @@
         display: block;
         font-size: 30px;
         margin: 1.5rem 0;
-        text-align: center;
+        margin-left: 10%;
+        text-align: left;
         transform: translateY(-50px);
         opacity: 0;
         transition: .3s ease;

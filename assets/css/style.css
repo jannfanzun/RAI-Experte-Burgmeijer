@@ -1400,7 +1400,7 @@ html, body {
 }
 
 .swiper {
-    width: 100%; /* Breite auf 100% setzen, damit sie immer innerhalb des Containers passt */
+    width: 30%; /* Breite auf 100% setzen, damit sie immer innerhalb des Containers passt */
 }
 
 .imgslide {

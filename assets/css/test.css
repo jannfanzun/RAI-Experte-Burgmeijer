@@ -62,6 +62,10 @@
     display: none;
 }
 
+.navbar1 .linkedIn img{
+    display: none;
+}
+
 @media (max-width: 992px){
     .header {
         padding: 1.3rem 5%;
@@ -74,6 +78,14 @@
     .header {
         padding-left: 15px;
     }
+
+    .navbar1 .linkedIn img {
+        width: 50px; /* Ändere die Breite nach deinen Wünschen */
+        height: 50px; /* Ändere die Höhe nach deinen Wünschen */
+        margin-top: 8%;
+        display: block;
+    }
+    
     .icons {
         display: inline-flex;
     }
@@ -123,7 +135,7 @@
     }
 
     #firstlink {
-        margin-top: 20%;
+        margin-top: 25%;
     }
 
     #check:checked~.navbar1 a{

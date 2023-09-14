@@ -128,6 +128,29 @@ p + p {
     display: inline-block; /* Stelle das SVG wieder dar */
 }
 
+.svgDownBegin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 850px) {
+    .svgDownBegin {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin-bottom: 15% !important;
+    }
+ }
+
+ @media (max-width: 350px ) {
+    .svgDownBegin {
+        margin-bottom: 5% !important;
+    }
+ }
+ 
+
 .svgstart {
     transform: rotate(180deg) !important;
     width: 60px;
@@ -1431,6 +1454,9 @@ html, body {
     .swiper {
         width: 40%;
     }
+    .containerBild {
+        height: 60vh;
+    }
 }
 
 @media (max-width: 980px) {
@@ -1448,7 +1474,7 @@ html, body {
     }
 
     .containerBild {
-        height: 70vh;
+        height: 45vh;
         background-position: left;
 
     }
@@ -1460,12 +1486,28 @@ html, body {
         height: fit-content;  
     }
 
+    .containerBild {
+        height: 30vh;
+
+    }
+
+}
+
+
+@media (max-width: 450px) {
+    .swiper {
+        width:70%;
+        height: fit-content;  
+    }
+
+
 }
 
 .container-ubermich {
     display: flex;
     flex-wrap: wrap; /* Hier wird das Flex-Wrap-Verhalten aktiviert */
     justify-content: space-between;
+    margin-left: 3%;
 }
 
 .ubermich-contact {
@@ -1514,6 +1556,10 @@ html, body {
 @media (max-width: 800px) {
     .container-ubermich {
         flex-direction: column; /* Ändert die Flexbox-Richtung in eine Spalte */
+    }
+
+    .verstecken {
+        display: none;
     }
     
     .flexbox {
@@ -2452,9 +2498,10 @@ a.linkedin-bg:hover {
     display: flex !important;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 767px) {
     .imagereferenzen img {
         width: 250px;
+        margin-top: 15% !important;
     }
 
 }
@@ -2472,10 +2519,16 @@ a.linkedin-bg:hover {
 }
 .referenzen-info {
     /* padding-left: 30px; */
-    margin-right: 10%;
+    margin-left: 10%;
 }
 .contact-info {
     padding-left: 30px;
+}
+
+@media (max-width: 767px) {
+    .contact-info {
+        display: none !important;
+    }
 }
 
 .contact-info h3 {

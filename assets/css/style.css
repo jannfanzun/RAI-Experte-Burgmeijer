@@ -217,15 +217,20 @@ p + p {
 }
 
 .btn-green {
-    background-color: #007f8b;
-    color: #fff;  
+    background-color: transparent;
+    color: black;  
+    border: 1px solid black;
+}
+
+.btn-green:hover {
+    border: none !important;
 }
 
 .btn:hover,
 button.btn:hover,
 .btn:focus,
 button.btn:focus {
-    background-color: #26272d;
+    background-color: #007f8b;
     color: #fff;
 }
 
@@ -1245,7 +1250,8 @@ html, body {
 }
 
 .preisbutton:hover {
-    background-color: black !important;
+    background-color: #007f8b !important;
+    border: #007f8b;
 }
 
 
@@ -2130,9 +2136,10 @@ a.linkedin-bg:hover {
 }
 
 .portfolio-sorting li .active {
-    background-color: #26272d;
+    background-color: #007f8b;
     color: #fff;  
-    box-shadow: none;   
+    box-shadow: none;  
+    border: none !important; 
 }
 
 #grid {

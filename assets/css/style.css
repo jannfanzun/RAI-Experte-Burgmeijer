@@ -97,6 +97,7 @@ p + p {
     font-size: 16px;
     font-weight: 300;
     border: 0;
+    text-transform: uppercase;
     border-radius: 50px;
     color: #26272d;
     background-color: #fff;

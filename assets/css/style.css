@@ -1418,10 +1418,57 @@ html, body {
     width: 50%;
 }
 
+table {
+    width: 80%; /* Reduzieren Sie die Gesamtbreite auf 80% */
+    border-collapse: collapse;
+    margin: 0 auto; /* Zentrieren Sie die Tabelle horizontal */
+}
+
+th, td {
+    padding: 10px;
+}
+
+.left-column {
+    width: 40%;
+}
+
+.right-column {
+    width: 50%; /* Ändern Sie die Breite der rechten Spalte auf 60% */
+    margin-left: 5%; /* Fügen Sie eine 5% margin zur linken Seite der rechten Spalte hinzu */
+    margin-right: 5%; /* Fügen Sie eine 5% margin zur rechten Seite der rechten Spalte hinzu */
+}
+
+.zeige-preise {
+    width: 90%; /* 90% Breite der verfügbaren Seite */
+    margin: 0 auto; /* Zentriert die Tabelle auf der Seite */
+    border-collapse: collapse; /* Rand zwischen den Zellen entfernen */
+    display: none !important; /* Standardmäßig ausblenden */
+}
+
+/* CSS für die Zellen in der Tabelle */
+.zeige-preise td {
+    padding: 10px; /* Innenabstand für den Inhalt der Zellen */
+}
+
+.dicker-text {
+    font-weight: bold;
+}
+
+@media (max-width: 851px) {
+    /* Ab einer Bildschirmbreite von 851px und mehr wird die Tabelle sichtbar */
+    .zeige-preise {
+        display: table !important;
+    }
+
+    .verstecke-preise {
+        display: none !important;
+    }
+}
+
 .containerBild {
     width: 100%;
     height: 60vh;
-    background: url(../../assets_marco/webelem/Burgm_Startseite_HGFarbverlauf_small.png) no-repeat left / cover; 
+    background-color: #f0f5fb;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -133,6 +133,7 @@ p + p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
 }
 
 @media (max-width: 850px) {
@@ -1246,7 +1247,7 @@ html, body {
 
 @media (max-width: 800px) {
     .preisbutton {
-        width: 50%;
+        width: 65%;
     }
 }
 

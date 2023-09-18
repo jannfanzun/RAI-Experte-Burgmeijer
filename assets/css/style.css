@@ -1165,9 +1165,9 @@ html, body {
 
 }
 
-.angebot-top-h1 {
+/* .angebot-top-h1 {
     text-transform: uppercase;
-}
+} */
 
 .hero-text h1 {
     position: relative;
@@ -2260,7 +2260,6 @@ a.linkedin-bg:hover {
 .h1-subangebot {
     color: white;
     text-align: center;
-    text-transform: uppercase;
 }
 
 

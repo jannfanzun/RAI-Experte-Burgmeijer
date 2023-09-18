@@ -1472,6 +1472,26 @@ th, td {
     margin-bottom: 5%;
 }
 
+.back-btn {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 990px) {
+    .back-btn {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 590px) {
+    .back-btn {
+        margin-bottom: 15%;
+    }
+}
+
+
 @media (max-width: 851px) {
     /* Ab einer Bildschirmbreite von 851px und mehr wird die Tabelle sichtbar */
     .zeige-preise {

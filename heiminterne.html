@@ -63,8 +63,8 @@
     <div id="hero" class="hero overlay subpage-hero teilangebote-hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Angebot 2</h1>
-                <a href="./#angebot" id="customSvgLink">
+                <h1 class="angebot-top-h1">Angebot 2</h1>
+                <a href="./#angebot" id="customSvgLink" class="angebot-back-svg">
                     <img id="downSvg1" class="svgback" src="assets_marco/images/Burgm_Pfeil_weiss.svg" alt="">
                     <img id="downSvg2" class="svgback" src="assets_marco/images/Burgm_Pfeil_HGweiss_petrol.svg" alt="">
                 </a>
@@ -81,14 +81,14 @@
         <section class="site-section subpage-site-section section-project">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-6 angebot-box">
                         <div class="project-img heiminterne-img">
-                            <h1 class="h1-subangebot">Heiminterne Schulungen</h1>
+                            <h2 class="h1-subangebot">Heiminterne Schulungen</h2>
                         </div>
                     </div>
-                    <aside class="col-md-4">
+                    <aside class="col-md-6 beschreibung-box">
                         <div class="project-info">
-                            <h3>Beschreibung</h3>
+                            <h2>Beschreibung</h2>
                             <p class="project-description">Praxisorientierte Schulungen, korrekte Dokumentation und Kodierung der Pflegestufe relevante Items, angepasst auf Ihre Wünsche.</p>
                             <a href="./#kontakt" class="btn btn-green">Kontakt</a>
                             <div class="social-links">
@@ -104,20 +104,78 @@
         </div>
         <section class="section-portfolio preisesection hidden">
             <div class="container">
-                <table class="verstecke-preise">
-                    <tr>
-                        <td class="left-column"><h3 class="">Beratung / Halbtagesschulung</h3></td>
-                        <td class="right-column"><h3 class="">CHF 700 / Tag - 3H</h3></td>
-                    </tr>
-                    <!-- Add more rows here if needed -->
-                </table>
-                <table class="zeige-preise">
-                    <tr>
-                        <td><h3 class="">Beratung / Halbtagesschulung</h3></td>
-                    </tr>
-                    <!-- Add more rows here if needed -->
-                </table>
-            </div>
+
+                <!-- <div class="text-center">
+                    <a class="btn btn-block" href="#" id="loadMore">Load More</a>
+                </div> -->
+
+            <table class="verstecke-preise">
+                        <tr>
+                            <td class="left-column"><h3 class="">Beratung / Halbtagesschulung</h3></td>
+                            <td class="right-column"><h3 class="">CHF 700 / Tag - 3H</h3></td>
+                        </tr>
+                        <tr>
+                            <td class="left-column"><h3 class="">Beratung / Halbtagesschulung</h3></td>
+                            <td class="right-column"><h3 class="">CHF 900 / Tag - 4H</h3></td>
+                        </tr>
+                        <tr>
+                            <td class="left-column"><h3 class="">Beratung / Tagesschulung</h3></td>
+                            <td class="right-column"><h3 class="">CHF 1500 / Tag - 7H</h3></td>
+                        </tr>
+                        <tr>
+                            <td class="left-column"><h4 class="">Tagesschulung</h4></td>
+                            <td class="right-column"><h4 class="">08.00 – 12.00 / Mittagspause / 13.00 – 16.00. <br>Die Pausenzeiten können nach Absprache mit den TeilnehmerInnen angepasst werden.</h4></td>
+                        </tr>
+                        <tr>
+                            <td class="left-column"><h4 class="">Preise 2024</h4></td>
+                            <td class="right-column"><h4 class="">MwSt. wird nicht erhoben, d.h. die Preise entsprechen Ihren Gesamtkosten.</h4></td>
+                        </tr>
+                        <tr>
+                            <td class="left-column"><h4 class="">Reisespesen</h4></td>
+                            <td class="right-column"><h4 class="">Bei Ganztageseinsätzen sind Reisespesen inbegriffen, sonst Fr. 0.70.- pro Kilometer.</h4></td>
+                        </tr>
+                        <!-- Fügen Sie weitere Zeilen nach Bedarf hinzu -->
+                    </table>
+
+                    <table class="zeige-preise">
+                        <tr>
+                            <td><h3 class="">Beratung / Halbtagesschulung</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="">CHF 700 / Tag - 3H</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="">Beratung / Halbtagesschulung</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="">CHF 900 / Tag - 4H</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="">Beratung / Tagesschulung</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="">CHF 1'500 / Tag - 7H</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="dicker-text">Tagesschulung</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="">08.00 – 12.00 / Mittagspause / <br>13.00 – 16.00. <br>Die Pausenzeiten können nach Absprache mit den TeilnehmerInnen angepasst werden.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="dicker-text">Preise 2024</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="">MwSt. wird nicht erhoben, d.h. die Preise entsprechen Ihren Gesamtkosten.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="dicker-text">Reisespesen</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="">Bei Ganztageseinsätzen sind Reisespesen inbegriffen, sonst Fr. 0.70.- pro Kilometer.</h4></td>
+                        </tr>
+                        <!-- Fügen Sie hier weitere Zeilen und Zellen hinzu, wenn benötigt -->
+                    </table>
         </section><!-- /.section-portfolio -->
 
        <section class="site-section subpage-site-section section-related-projects">
@@ -158,7 +216,11 @@
             </div>
         </div>
     </div>
+    
 </section><!-- /.section-portfolio -->
+<div id="preisbuttondiv">
+    <a href="./#angebot" class="btn btn-border preisbutton" id="toggleButton">Zurück</a>
+</div>
 
 <footer id="colophon" class="site-footer">
     <div class="container">
@@ -175,7 +237,7 @@
             </div>
             <div class="clearfix visible-xs"></div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled agb-impressum">
                     <li><a href="assets_marco/docs/AGB.pdf" target="_blank">AGB</a></li>
                     <li><a href="assets_marco/docs/Impressum.pdf" target="_blank">Impressum</a></li>
                 </ul>

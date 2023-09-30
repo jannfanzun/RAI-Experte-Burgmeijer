@@ -62,6 +62,10 @@
     display: none;
 }
 
+#menu-icon {
+  font-size: 30px;
+}
+
 .navbar1 .linkedIn img{
     display: none;
 }

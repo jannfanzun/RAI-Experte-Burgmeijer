@@ -2273,12 +2273,31 @@ a.linkedin-bg:hover {
 /* 
  * Portfolio-item
  */
-.project-img {
+ .project-img {
     height: 380px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.angebot-text-kachel {
+    text-transform: uppercase;
+    color: white;
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-start; /* Änderung hier, um "Angebot 1" ganz oben auszurichten */
+    /* margin-bottom: 50px; */
+}
+
+.h1-subangebot {
+    color: white;
+    text-align: center;
+    justify-content: center !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
 .beratung-img {
     background-color: #9ec0e5;
@@ -2296,10 +2315,7 @@ a.linkedin-bg:hover {
     background-color: #30929f;
 }
 
-.h1-subangebot {
-    color: white;
-    text-align: center;
-}
+
 
 
 .project-img + .project-img  {

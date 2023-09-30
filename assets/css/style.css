@@ -836,7 +836,7 @@ html, body {
 .headersectionh2{
     color: #007f8b;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .headersectionh2ubermich{
@@ -1149,6 +1149,15 @@ html, body {
         margin-right: auto;
     }
 }
+.analogbeschreibung {
+    text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+    .analogbeschreibung {
+        margin-top: 30px;
+    }
+}
 
 
 .hero-text {
@@ -1190,6 +1199,15 @@ html, body {
     color: #ffffff;
 }
 
+.beratung-bold {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+table h4{
+    line-height: 1.35;
+}
+
 .hero-text .btn {
     position: relative;
     background-color: transparent;
@@ -1225,7 +1243,7 @@ html, body {
 }
 
 .subpage-hero {
-    height: 300px;
+    height: 200px;
     left: 0;
     padding: 0;
 }
@@ -1466,6 +1484,7 @@ th, td {
 
 .dicker-text {
     font-weight: bold;
+    margin-bottom: -5px;
 }
 
 .preisesection {
@@ -1512,7 +1531,7 @@ th, td {
 .containerBild {
     width: 100%;
     height: 60vh;
-    background-color: #f0f5fb;
+    background-color: #c2d9f5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1656,7 +1675,7 @@ th, td {
     }
 
     .verstecken-p {
-        margin-top: -6%;
+        margin-top: -30px;
     }
     
     .flexbox {
@@ -2201,7 +2220,7 @@ a.linkedin-bg:hover {
 /* PAGES
 ================================================== */
 .subpage-site-section {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 .breadcrumb {
@@ -2303,7 +2322,7 @@ a.linkedin-bg:hover {
 
 .project-description,
 .project-date-category {
-    margin: 30px 0 0;
+    /* margin: 30px 0 0; */
     font-size: 18px;
 }
 

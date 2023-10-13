@@ -1634,8 +1634,10 @@ th, td {
         width:70%;
         height: fit-content;  
     }
+}
 
-
+.erfolg-section {
+    height: 40vh;
 }
 
 .container-ubermich {

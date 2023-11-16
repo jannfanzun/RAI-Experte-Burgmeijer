@@ -1,5 +1,24 @@
 /* CUSTOM RESETS
 ================================================== */
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent; 
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #007f8b;
+    border-radius: 6px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal:active {
+    background-color: transparent; 
+  }
+
 a {
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
